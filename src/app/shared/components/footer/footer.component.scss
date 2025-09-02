@@ -1,0 +1,10 @@
+.footer {
+  position: fixed;   /* fixa em relação à viewport */
+  bottom: 0;         /* na parte inferior */
+  left: 0;           /* começa do lado esquerdo */
+  width: 100%;       /* ocupa a largura toda */
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
