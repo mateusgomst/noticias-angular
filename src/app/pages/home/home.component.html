@@ -1,0 +1,11 @@
+<div>
+    <div class="card-container">
+        <app-card *ngFor="let noticia of noticias"
+            [title]="noticia.title"
+            [subtitle]="noticia.subtitle"
+            [text]="noticia.text"
+            [links]="noticia.links"
+            [width]="'100%'">
+        </app-card>
+    </div>
+</div>

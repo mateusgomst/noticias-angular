@@ -1,0 +1,12 @@
+.card-container {
+    display: flex;
+    /* ativa o flexbox */
+    flex-wrap: wrap;
+    /* permite quebrar linha quando não cabe */
+    gap: 1rem;
+    /* espaço entre os cards */
+    padding: 1rem;
+    /* espaço nas laterais */
+    justify-content: flex-start;
+    /* alinha os cards à esquerda */
+}
