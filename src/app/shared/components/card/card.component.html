@@ -1,0 +1,15 @@
+<div class="card" [style.width]="width">
+  <div class="card-body">
+    <h5 class="card-title">{{ title }}</h5>
+    <h6 class="card-subtitle mb-2 text-muted" *ngIf="subtitle">{{ subtitle }}</h6>
+    <p class="card-text">{{ text }}</p>
+
+    <div *ngIf="links && links.length > 0">
+      <a *ngFor="let link of links" 
+         [href]="link.url" 
+         class="card-link">
+        {{ link.label }}
+      </a>
+    </div>
+  </div>
+</div>
