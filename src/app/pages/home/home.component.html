@@ -1,11 +1,8 @@
 <div>
     <div class="card-container">
-        <app-card *ngFor="let noticia of noticias"
-            [title]="noticia.title"
-            [subtitle]="noticia.subtitle"
-            [text]="noticia.text"
-            [links]="noticia.links"
+        <app-card-agendamento *ngFor="let agendamento of agendamentos"
+            [agendamento]="agendamento"
             [width]="'100%'">
-        </app-card>
+        </app-card-agendamento>
     </div>
 </div>
